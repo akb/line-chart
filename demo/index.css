@@ -1,0 +1,34 @@
+.application {
+  position: relative;
+  min-height: 500px;
+}
+
+.chart {
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  bottom   : 0;
+  right    : 0;
+  height   : 100%;
+  width    : 100%;
+
+  margin   : 0;
+  padding  : 0;
+  border   : 0;
+
+  font-family : Roboto Condensed;
+  font-size   : 10;
+}
+
+.axis-line {
+  stroke: black;
+}
+
+.axis-tick {
+  stroke: black;
+}
+
+.axis-tick-label {
+  font-size: 10px;
+  stroke: black;
+}
